@@ -58,7 +58,7 @@ img {
   }
 
 
-.clearFix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -120,10 +120,6 @@ img {
      
     }
 
-    .main-footer {
-        display: none;
-    }
-
   @media (min-width: 768px ) {
       
     nav ul li {
@@ -176,10 +172,10 @@ img {
         display:inline-block;
     }
 
-    .mobile-footer {
-        display:none;
-    }
+  }
 
+  .footer-nav {
+     display:none; 
   }
 
 @media (min-width: 1024px) {
